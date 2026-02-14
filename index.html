@@ -39,9 +39,8 @@
         .contenedor-libros {
             display: flex;
             flex-wrap: wrap;
+            gap: 20px;
             justify-content: center;
-            padding: 40px 20px;
-            gap: 30px;
         }
 
         /* Tarjeta de Libro Individual */
@@ -53,6 +52,11 @@
             padding: 20px;
             text-align: center;
             transition: transform 0.3s ease;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;     
+            justify-content: center;
+            width: 250px;
         }
 
         .tarjeta-libro:hover {
@@ -95,12 +99,35 @@
 <div class="contenedor-libros">
         
         <div class="tarjeta-libro">
-            <img src="imagenes/cover.jpg" alt="Portada de Boulevard. Libro 1">
+            <img src="imagenes/boulevard1ilu.jpg" alt="Portada de Boulevard. Libro 1">
             <h2>Boulevard. Libro 1: (edición especial ilustrada)</h2>
+            <p>Autor: Flor M. Salvador</p>
+            <a href="" class="btn-descargar">Descargar ePub</a>
+        </div>
+        <div class="tarjeta-libro">
+            <img src="imagenes/a-todos-los-chicos-de-los-que-me-enamore.jpg" alt="Portada de A todos los chicos que enamore">
+            <h2>A todos los chicos que enamore</h2>
+            <p>Autor: Jenny Han</p>
+            <a href="https://www.mediafire.com/file/6tiu41pczuxhajg/A_todos_los_chicos_de_los_que_me_enamor%25C3%25A9_-_Jenny_Han.epub/file" class="btn-descargar">Descargar ePub</a>
+        </div>
+        <div class="tarjeta-libro">
+            <img src="imagenes/boulevard1.jpg" alt="Portada de Boulevard. Libro 1">
+            <h2>Boulevard. Libro 1: La versión de Flor</h2>
             <p>Autor: Flor M. Salvador</p>
             <a href="#" class="btn-descargar">Descargar ePub</a>
         </div>
-
+        <div class="tarjeta-libro">
+            <img src="imagenes/boulevard2.jpg" alt="Portada de Boulevard Libro 2">
+            <h2>Boulevard Libro 2. Después de él</h2>
+            <p>Autor: Flor M. Salvador</p>
+            <a href="#" class="btn-descargar">Descargar ePub</a>
         </div>
+        <div class="tarjeta-libro">
+            <img src="imagenes/pd-todavia-te-quiero.jpg" alt="Portada de P.D Todavía te quiero">
+            <h2>P.D. Todavía te quiero</h2>
+            <p>Autor: Jenny Han</p>
+            <a href="" class="btn-descargar">Descargar ePub</a>
+        </div>
+</div>        
 </body>
 </html>
